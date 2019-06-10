@@ -1,0 +1,24 @@
+﻿<Window x:Class="Unit3Summative.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Unit3Summative"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <StackPanel>
+            <RadioButton x:Name="begMode" Content="Beginner"></RadioButton>
+            <RadioButton x:Name="interMode" Content="Intermediate"></RadioButton>
+            <RadioButton x:Name="expMode" Content="Expert"></RadioButton>
+            <Button x:Name="btnRun" Content="Click to start game!" Click="btnRun_Click"></Button>
+            <TextBox x:Name="txtImput"></TextBox>
+            <Button x:Name="btnLetterCheck" Content="Click to check letter!" Click="btnLetterCheck_Click"></Button>
+            <Label x:Name="lblOutput"></Label>
+        </StackPanel>
+        <Rectangle Width="100" Height="5" Fill="Black" Canvas.Left="407" Canvas.Top="304"/>
+        <Rectangle Width="5" Height="200" Fill="Black" Canvas.Left="456" Canvas.Top="109"/>
+        <Rectangle Width="75" Height="5" Fill="Black" Canvas.Left="386" Canvas.Top="109"/>
+        <Rectangle Width="5" Height="20" Fill="Black" Canvas.Left="386" Canvas.Top="109"/>
+    </Canvas>
+</Window>

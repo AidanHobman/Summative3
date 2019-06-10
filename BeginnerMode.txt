@@ -1,0 +1,12 @@
+﻿Seal
+Bill
+Kill
+Flag
+Frog
+Tree
+Width
+Close
+Area
+Clock
+Sock
+Rear
